@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuestionListController" customModule="Judge_it_" customModuleProvider="target">
+            <connections>
+                <outlet property="helpDownArrowImageView" destination="Nt3-CY-0RH" id="lRW-LN-Dec"/>
+                <outlet property="helpUpArrowImageView" destination="6XQ-3y-gM0" id="Lak-63-OXK"/>
+                <outlet property="lowerHelpViewWrapperView" destination="lFs-Bg-287" id="UNO-w4-NJj"/>
+                <outlet property="upperHelpViewWrapperView" destination="joU-H9-fwO" id="hw9-R7-WzG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="joU-H9-fwO">
+                    <rect key="frame" x="8" y="14" width="303" height="83"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="oZD-bl-ztd">
+                            <rect key="frame" x="8" y="8" width="287" height="67"/>
+                            <string key="text">Create a new voting and then choose your participants. You can also invite people by sending them a link to the voting (broadcast).</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.95512821824334682" blue="0.95355535581747652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="oZD-bl-ztd" secondAttribute="trailing" constant="8" id="QER-9Q-SzS"/>
+                        <constraint firstAttribute="bottom" secondItem="oZD-bl-ztd" secondAttribute="bottom" constant="8" id="cx4-UP-UD7"/>
+                        <constraint firstItem="oZD-bl-ztd" firstAttribute="leading" secondItem="joU-H9-fwO" secondAttribute="leading" constant="8" id="h43-BA-Oco"/>
+                        <constraint firstItem="oZD-bl-ztd" firstAttribute="top" secondItem="joU-H9-fwO" secondAttribute="top" constant="8" id="koe-bi-sdj"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_help_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="6XQ-3y-gM0">
+                    <rect key="frame" x="311" y="8" width="48" height="48"/>
+                    <color key="tintColor" red="0.84313725490000002" green="0.13725490200000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="iyD-Aj-QBv"/>
+                        <constraint firstAttribute="width" constant="48" id="tVj-Sx-RsX"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="lFs-Bg-287">
+                    <rect key="frame" x="164.5" y="620" width="202.5" height="33"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sync your contacts and create groups" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="rgb-v8-UmO">
+                            <rect key="frame" x="8" y="8" width="186.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="rgb-v8-UmO" firstAttribute="leading" secondItem="lFs-Bg-287" secondAttribute="leading" constant="8" id="Ig3-w1-vhB"/>
+                        <constraint firstAttribute="bottom" secondItem="rgb-v8-UmO" secondAttribute="bottom" constant="8" id="Qo3-gv-Ccm"/>
+                        <constraint firstItem="rgb-v8-UmO" firstAttribute="top" secondItem="lFs-Bg-287" secondAttribute="top" constant="8" id="b9w-Km-pak"/>
+                        <constraint firstAttribute="trailing" secondItem="rgb-v8-UmO" secondAttribute="trailing" constant="8" id="mPP-e7-Z81"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_help_arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="Nt3-CY-0RH">
+                    <rect key="frame" x="116.5" y="611" width="48" height="48"/>
+                    <color key="tintColor" red="0.84313725490000002" green="0.13725490200000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="uup-3f-8NX"/>
+                        <constraint firstAttribute="height" constant="48" id="ysG-Fc-5MC"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6XQ-3y-gM0" firstAttribute="leading" secondItem="joU-H9-fwO" secondAttribute="trailing" id="1EJ-0b-mns"/>
+                <constraint firstItem="6XQ-3y-gM0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="37N-lb-oeh"/>
+                <constraint firstAttribute="bottom" secondItem="Nt3-CY-0RH" secondAttribute="bottom" constant="8" id="68W-XI-PS2"/>
+                <constraint firstItem="Nt3-CY-0RH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" multiplier="3/4" id="EKd-KN-klf"/>
+                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="lFs-Bg-287" secondAttribute="trailing" id="F7O-Wu-VHo"/>
+                <constraint firstAttribute="trailing" secondItem="6XQ-3y-gM0" secondAttribute="trailing" constant="16" id="FnB-BR-kkR"/>
+                <constraint firstItem="joU-H9-fwO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="ILU-qd-Cf3"/>
+                <constraint firstItem="joU-H9-fwO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="NZV-Sw-7mA"/>
+                <constraint firstItem="joU-H9-fwO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="cNp-xc-euK"/>
+                <constraint firstItem="lFs-Bg-287" firstAttribute="leading" secondItem="Nt3-CY-0RH" secondAttribute="trailing" id="hhL-E2-Hrw"/>
+                <constraint firstAttribute="bottom" secondItem="lFs-Bg-287" secondAttribute="bottom" constant="14" id="wa5-vS-huN"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="NZV-Sw-7mA"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="410" y="287"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_help_arrow" width="32" height="32"/>
+        <image name="ic_help_arrow_down" width="32" height="32"/>
+    </resources>
+</document>

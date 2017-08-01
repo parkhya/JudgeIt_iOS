@@ -1,0 +1,6 @@
+framework module Pods_Judge_it_ {
+  umbrella header "Pods-Judge it!-umbrella.h"
+
+  export *
+  module * { export * }
+}

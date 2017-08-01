@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Create a new voting and then choose your participants. You can also invite people by sending them a link to the voting (broadcast)."; ObjectID = "oZD-bl-ztd"; */
+"oZD-bl-ztd.text" = "Crea una nueva votación y luego selecciona tus participantes. También puedes invitar a amigos por enlace (modo broadcast).";
+
+/* Class = "UILabel"; text = "Sync your contacts and create groups"; ObjectID = "rgb-v8-UmO"; */
+"rgb-v8-UmO.text" = "Síncroniza tus contactos y crea grupos.";

@@ -1,0 +1,9 @@
+/*
+*/
+
+"NSRemindersUsageDescription" = "Les messages peuvent être des sons, messages et des icônes badges qui peuvent être configurés dans les paramètres.";
+"NSPhotoLibraryUsageDescription" = "Tu peux modifier cette configuration tout le temps dans les paramètres de ton portable.";
+"NSCameraUsageDescription" = "Tu peux modifier cette configuration tout le temps dans les paramètres de ton portable.";
+"NSContactsUsageDescription" = "Tu peux modifier cette configuration tout le temps dans les paramètres de ton portable.";
+"NSCalendarsUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSBluetoothPeripheralUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";

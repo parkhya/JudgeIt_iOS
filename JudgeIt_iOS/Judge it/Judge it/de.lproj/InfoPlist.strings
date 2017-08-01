@@ -1,0 +1,17 @@
+/*
+ 
+ */
+
+/*
+"NSRemindersUsageDescription" = "Mitteilungen können Töne, Meldungen und Symbol-Kennzeichen sein, die in den Einstellungen konfiguriert werden können.";
+"NSPhotoLibraryUsageDescription" = "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+"NSCameraUsageDescription" = "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+"NSContactsUsageDescription" "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+ */
+
+"NSRemindersUsageDescription" = "Mitteilungen können Töne, Meldungen und Symbol-Kennzeichen sein, die in den Einstellungen konfiguriert werden können.";
+"NSPhotoLibraryUsageDescription" = "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+"NSCameraUsageDescription" = "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+"NSContactsUsageDescription" = "Du kannst diese Konfiguration jederzeit in den Einstellungen Deines Handys ändern.";
+"NSCalendarsUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSBluetoothPeripheralUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";

@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Judge it!
+
+  Created by Daniel Thevessen on 31/03/16.
+  Copyright © 2016 Judge it. All rights reserved.
+*/
+
+"NSRemindersUsageDescription" = "Notifications may include alerts, sounds and icon badges. These can be configured in the settings.";
+"NSPhotoLibraryUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSCameraUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSContactsUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSCalendarsUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
+"NSBluetoothPeripheralUsageDescription" = "You can change this configuration any time in the settings of your mobile phone.";
