@@ -16,6 +16,8 @@ import Alamofire
 import SwiftyJSON
 import AlamofireNetworkActivityLogger
 
+let kAppDelegate = UIApplication.shared.delegate as! AppDelegate
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     

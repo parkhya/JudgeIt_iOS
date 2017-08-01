@@ -862,12 +862,11 @@ class CommentFragmentController : UIViewController, UITableViewDelegate, UITable
                     
                     if(comment.leave && !self.question!.isChatOnly){
                         controlNotice.text = NSString(format: NSLocalizedString("leave_notice", comment: "") as NSString, user.username) as String
-                        print("controlNotice = \(String(format: "%@", controlNotice.text!))")
-                        let textRect: CGRect =  (controlNotice.text?.boundingRect(with: CGSize(width:cell.contentView.frame.size.width - 40, height: 500), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:14.0)], context: nil))!
-                         controlNotice.frame = CGRect(x: cell.contentView.bounds.midX - controlNotice.bounds.midX, y: controlNotice.frame.origin.y, width: (textRect.width), height: CGFloat(controlNotice.frame.size.height))
+                       
                         
                     } else if(comment.leave && self.question!.isChatOnly){
                         controlNotice.text = NSString(format: NSLocalizedString("chat_leave_notice", comment: "") as NSString, user.username) as String
+                       
                     } else if (comment.stop){
                         controlNotice.text = NSString(format: NSLocalizedString("close_notice", comment: "") as NSString, self.question!.isPublic ? "Judge it!" : user.username) as String
                     } else if(comment.addedChoice != nil){
@@ -877,7 +876,9 @@ class CommentFragmentController : UIViewController, UITableViewDelegate, UITable
                     } else if(comment.isCreationNotice && self.question!.isChatOnly){
                         controlNotice.text = NSString(format: NSLocalizedString("chat_create_notice", comment: "") as NSString, self.question!.isPublic ? "Judge it!" : user.username) as String
                     }
-                    
+                    print("controlNotice = \(String(format: "%@", controlNotice.text!))")
+                    let textRect: CGRect =  (controlNotice.text?.boundingRect(with: CGSize(width:cell.contentView.frame.size.width - 40, height: 500), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:14.0)], context: nil))!
+                    controlNotice.frame = CGRect(x: cell.contentView.bounds.midX - controlNotice.bounds.midX, y: controlNotice.frame.origin.y, width: (textRect.width), height: CGFloat(controlNotice.frame.size.height))
                     creatorPic.image = user.picture
                 }
             }

@@ -19,7 +19,7 @@ class QuestionEditController : UIViewController, UITableViewDelegate, UITableVie
     @IBOutlet internal var titleField2: KMPlaceholderTextView!
     
     @IBOutlet var followupLabel: UILabel!
-    
+    var lbl_Title: UILabel!
     @IBOutlet var tableView:UITableView!
     
     var lastSelected:Int?
@@ -262,11 +262,23 @@ class QuestionEditController : UIViewController, UITableViewDelegate, UITableVie
         }
         self.title = NSLocalizedString(self.title!, comment: "")
    //   self.tit   NSLocalizedString(self.title, @"");
+        
+        let textWidth = self.view.frame.size.width / 2
+        
+        lbl_Title = UILabel(frame: CGRect(x: textWidth / 2, y: 20, width: textWidth, height: 43))
+        lbl_Title.text = NSLocalizedString("NewVoting", comment: "")
+        lbl_Title.textColor = UIColor.white
+        lbl_Title.font = UIFont(name: "Amatic-Bold", size: 27)
+        lbl_Title.backgroundColor = UIColor.init(colorLiteralRed: 255.0/255.0, green: 69.0/255.0, blue: 77.0/255.0, alpha: 1.0)
+        lbl_Title.isOpaque = true
+        lbl_Title.textAlignment = .center
+        kAppDelegate.window?.addSubview(lbl_Title)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         NotificationCenter.default.removeObserver(self)
+        lbl_Title.removeFromSuperview()
     }
     
     override func viewDidAppear(_ animated: Bool) {

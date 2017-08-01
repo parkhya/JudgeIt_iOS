@@ -40,7 +40,7 @@ fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 
 
 class QuestionInviteController : UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, MFMessageComposeViewControllerDelegate {
-    
+    var lbl_Title: UILabel!
     @IBOutlet var followupLabel: UILabel!
     @IBOutlet weak var saveButton: UIBarButtonItem!
     @IBOutlet var tableView: UITableView!
@@ -217,9 +217,17 @@ class QuestionInviteController : UIViewController, UITableViewDelegate, UITableV
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        print("self.title = \(self.title)")
-//        UserDefaults().set(self.title, forKey: "selectedClass")
-//        UserDefaults().synchronize()
+        let textWidth = self.view.frame.size.width / 2
+        let setColor = UIColor.init(colorLiteralRed: 255.0/255.0, green: 69.0/255.0, blue: 77.0/255.0, alpha: 1.0)
+        
+        lbl_Title = UILabel(frame: CGRect(x: textWidth / 2, y: 20, width: textWidth, height: 43))
+        lbl_Title.text = NSLocalizedString("InviteParticipant", comment: "")
+        lbl_Title.textColor = UIColor.white
+        lbl_Title.font = UIFont(name: "Amatic-Bold", size: 27)
+        lbl_Title.backgroundColor = setColor
+        lbl_Title.isOpaque = true
+        lbl_Title.textAlignment = .center
+        kAppDelegate.window?.addSubview(lbl_Title)
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
@@ -230,6 +238,10 @@ class QuestionInviteController : UIViewController, UITableViewDelegate, UITableV
     
     func dismissKeyboard(){
         view.endEditing(true)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        lbl_Title.removeFromSuperview()
     }
     
     func passEditQuestion(_ question:Question) {
