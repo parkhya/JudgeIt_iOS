@@ -219,6 +219,7 @@ open class Question : NSObject {
                 completion(nil, error)
             } else {
                 if let questionsArray = JSON as? Array<Dictionary<String, AnyObject>> {
+                    print("questionsArray Private...........\(questionsArray)")
                     var result = [Question]()
                     for questionDict in questionsArray {
                         let question = Question(dictionary: questionDict)
@@ -251,6 +252,7 @@ open class Question : NSObject {
                 completion(nil, error)
             } else {
                 if let questionsArray = JSON as? Array<Dictionary<String, AnyObject>> {
+                    print("questionsArray Public...........\(questionsArray)")
                     var result = [Question]()
                     for questionDict in questionsArray {
                         let question = Question(dictionary: questionDict)

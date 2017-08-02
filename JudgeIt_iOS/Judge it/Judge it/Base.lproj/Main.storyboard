@@ -2610,8 +2610,8 @@ email or social media to friends</string>
                                             <rect key="frame" x="0.0" y="67" width="319" height="24"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                             <subviews>
-                                                <imageView hidden="YES" userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gHQ-gB-MT2">
-                                                    <rect key="frame" x="235" y="1" width="19" height="19"/>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alarm-clock-grey" translatesAutoresizingMaskIntoConstraints="NO" id="gHQ-gB-MT2">
+                                                    <rect key="frame" x="235" y="2" width="18" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="108" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" fixedFrame="YES" text="Feb. 20, 07:01" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EDg-NL-FU9">
@@ -3089,8 +3089,8 @@ email or social media to friends</string>
                                         <view tag="201" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0S8-1d-gee" userLabel="View Gray Bar">
                                             <rect key="frame" x="0.0" y="52" width="322" height="24"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7s-jm-VL8">
-                                                    <rect key="frame" x="238" y="2" width="20" height="20"/>
+                                                <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alarm-clock-grey" translatesAutoresizingMaskIntoConstraints="NO" id="W7s-jm-VL8">
+                                                    <rect key="frame" x="243" y="3" width="18" height="18"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="108" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" fixedFrame="YES" text="Feb. 20, 07:01" textAlignment="center" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBj-k2-CEH">
@@ -3195,8 +3195,8 @@ email or social media to friends</string>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                             <color key="backgroundColor" red="0.84842586517333984" green="0.84907293319702148" blue="0.84852606058120728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PNp-JF-Zvj">
-                                            <rect key="frame" x="297" y="0.0" width="16" height="23"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3Dots" translatesAutoresizingMaskIntoConstraints="NO" id="PNp-JF-Zvj">
+                                            <rect key="frame" x="291" y="1" width="25" height="23"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chat-btn" translatesAutoresizingMaskIntoConstraints="NO" id="FUz-al-7HQ">
@@ -3320,7 +3320,9 @@ email or social media to friends</string>
         </scene>
     </scenes>
     <resources>
+        <image name="3Dots" width="100" height="100"/>
         <image name="LoginIcon" width="380" height="380"/>
+        <image name="alarm-clock-grey" width="375" height="360"/>
         <image name="chat-btn" width="20" height="20"/>
         <image name="ic_action_choiceadd" width="42" height="42"/>
         <image name="ic_action_newquestion" width="25" height="26"/>
@@ -3966,7 +3968,7 @@ AEEAAAAAAAAAAAAAAAAAAB1wA
         <simulatedScreenMetrics key="destination" type="retina4_0.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="iE9-J9-5Gm"/>
         <segue reference="SvY-3y-mi8"/>
+        <segue reference="iE9-J9-5Gm"/>
     </inferredMetricsTieBreakers>
 </document>

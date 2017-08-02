@@ -49,20 +49,20 @@
                                         <rect key="frame" x="8" y="32.5" width="304" height="22"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgT-RR-60M">
-                                                <rect key="frame" x="127.5" y="0.0" width="49.5" height="22"/>
+                                                <rect key="frame" x="128" y="0.0" width="49.5" height="22"/>
                                                 <fontDescription key="fontDescription" name="Amatic-Bold" family="Amatic" pointSize="21"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R1y-sq-CO9" userLabel="Left line">
-                                                <rect key="frame" x="0.0" y="11" width="123.5" height="1"/>
+                                                <rect key="frame" x="0.0" y="11" width="124" height="1"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Eib-aN-7KO"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qsh-Pe-TbX" userLabel="Right line">
-                                                <rect key="frame" x="181" y="11" width="123" height="1"/>
+                                                <rect key="frame" x="181.5" y="11" width="122.5" height="1"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="mwJ-3M-xgz"/>
@@ -169,20 +169,20 @@
                                         <rect key="frame" x="8" y="274.5" width="304" height="20"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0C-5s-Yyf">
-                                                <rect key="frame" x="134" y="0.0" width="37.5" height="20"/>
+                                                <rect key="frame" x="133.5" y="0.0" width="37.5" height="20"/>
                                                 <fontDescription key="fontDescription" name="Amatic-Bold" family="Amatic" pointSize="21"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dSq-8t-zAZ" userLabel="Left line">
-                                                <rect key="frame" x="0.0" y="10" width="130" height="1"/>
+                                                <rect key="frame" x="0.0" y="10" width="129.5" height="1"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="8ku-UV-igA"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vzm-lq-w47" userLabel="Right line">
-                                                <rect key="frame" x="175.5" y="10" width="128.5" height="1"/>
+                                                <rect key="frame" x="175" y="10" width="129" height="1"/>
                                                 <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Knc-Ke-n5K"/>
@@ -490,7 +490,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEJ-ul-xUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1181" y="-1323"/>
+            <point key="canvasLocation" x="337.5" y="-1194.7183098591549"/>
         </scene>
         <!--ContactInfo-->
         <scene sceneID="rNC-Bk-Sjl">
@@ -678,7 +678,7 @@
         <!--VotingViewController-->
         <scene sceneID="EqP-nb-K6V">
             <objects>
-                <tabBarController storyboardIdentifier="VotingViewController" extendedLayoutIncludesOpaqueBars="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NfX-uy-JnL" userLabel="VotingViewController" customClass="VotingViewController" customModule="Judge_it_" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="VotingViewController" extendedLayoutIncludesOpaqueBars="YES" hidesBottomBarWhenPushed="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NfX-uy-JnL" userLabel="VotingViewController" customClass="VotingViewController" customModule="Judge_it_" customModuleProvider="target" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" translucent="NO" id="xsd-qf-w0b">
@@ -695,7 +695,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w5i-PW-lni" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-606" y="-1100"/>
+            <point key="canvasLocation" x="-488" y="-1195"/>
         </scene>
         <!--Chat-->
         <scene sceneID="JrS-bZ-15i">
@@ -1091,7 +1091,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FUh-DL-zT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="721.875" y="-525"/>
+            <point key="canvasLocation" x="338" y="-515"/>
         </scene>
         <!--Vote-->
         <scene sceneID="xhy-JK-y5z">
@@ -1424,7 +1424,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NXM-7Q-eyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380" y="-2003"/>
+            <point key="canvasLocation" x="338" y="-1872"/>
         </scene>
     </scenes>
     <resources>

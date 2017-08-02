@@ -106,6 +106,7 @@ class Choice : Hashable {
                 completion(nil, error)
             } else {
                 if let choicesArray = JSON as? Array<Dictionary<String, AnyObject>> {
+                    print("choicesArray...........\(choicesArray)")
                     var result = [Choice]()
                     for choicesDict in choicesArray {
                         let choice = Choice(dictionary: choicesDict)

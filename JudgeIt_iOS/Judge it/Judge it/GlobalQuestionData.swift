@@ -1,4 +1,4 @@
-//
+  //
 //  GlobalQuestionData.swift
 //  Judge it
 //
